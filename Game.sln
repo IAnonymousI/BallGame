@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{3CBC6A29-D4B9-49E4-B579-1AD64F5C2A7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33B0CAF7-0E56-410E-A825-8EF5EF94DAF2} = {33B0CAF7-0E56-410E-A825-8EF5EF94DAF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{33B0CAF7-0E56-410E-A825-8EF5EF94DAF2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZombieGame", "ZombieGame\ZombieGame.vcxproj", "{A768C7F8-24BE-4BDB-BB53-C543EBB1B8F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33B0CAF7-0E56-410E-A825-8EF5EF94DAF2} = {33B0CAF7-0E56-410E-A825-8EF5EF94DAF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallGame", "BallGame\BallGame.vcxproj", "{7C6DD87E-6240-4641-8BF5-D1831AB93C24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBC6A29-D4B9-49E4-B579-1AD64F5C2A7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CBC6A29-D4B9-49E4-B579-1AD64F5C2A7E}.Debug|Win32.Build.0 = Debug|Win32
+		{3CBC6A29-D4B9-49E4-B579-1AD64F5C2A7E}.Release|Win32.ActiveCfg = Debug|Win32
+		{3CBC6A29-D4B9-49E4-B579-1AD64F5C2A7E}.Release|Win32.Build.0 = Debug|Win32
+		{33B0CAF7-0E56-410E-A825-8EF5EF94DAF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33B0CAF7-0E56-410E-A825-8EF5EF94DAF2}.Debug|Win32.Build.0 = Debug|Win32
+		{33B0CAF7-0E56-410E-A825-8EF5EF94DAF2}.Release|Win32.ActiveCfg = Release|Win32
+		{33B0CAF7-0E56-410E-A825-8EF5EF94DAF2}.Release|Win32.Build.0 = Release|Win32
+		{A768C7F8-24BE-4BDB-BB53-C543EBB1B8F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A768C7F8-24BE-4BDB-BB53-C543EBB1B8F7}.Debug|Win32.Build.0 = Debug|Win32
+		{A768C7F8-24BE-4BDB-BB53-C543EBB1B8F7}.Release|Win32.ActiveCfg = Release|Win32
+		{A768C7F8-24BE-4BDB-BB53-C543EBB1B8F7}.Release|Win32.Build.0 = Release|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Debug|Win32.Build.0 = Debug|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Release|Win32.ActiveCfg = Release|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

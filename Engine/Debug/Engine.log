@@ -1,0 +1,43 @@
+﻿Build started 7/21/2015 10:06:52 PM.
+     1>Project "C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ParticleBatch2D.cpp ParticleEngine2D.cpp SpriteBatch.cpp SpriteFont.cpp
+         SpriteBatch.cpp
+     1>c:\users\jinyoung\documents\visual studio 2013\projects\game\engine\spritebatch.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jinyoung\documents\visual studio 2013\projects\game\engine\spritebatch.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jinyoung\documents\visual studio 2013\projects\game\engine\spritebatch.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+         ParticleBatch2D.cpp
+         Generating Code...
+         Compiling...
+         SpriteFont.cpp
+     1>c:\users\jinyoung\documents\visual studio 2013\projects\game\engine\spritefont.cpp(38): warning C4316: 'glm::tvec4<int,0>' : object allocated on the heap may not be aligned 16
+     1>c:\users\jinyoung\documents\visual studio 2013\projects\game\engine\spritefont.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jinyoung\documents\visual studio 2013\projects\game\engine\spritefont.cpp(108): warning C4244: '*=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\jinyoung\documents\visual studio 2013\projects\game\engine\spritefont.cpp(143): warning C4316: 'Engine::CharGlyph' : object allocated on the heap may not be aligned 16
+         ParticleEngine2D.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Debug\Engine.lib" /NOLOGO Debug\AudioEngine.obj
+         Debug\Camera2D.obj
+         Debug\Engine.obj
+         Debug\EngineErrors.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\ParticleBatch2D.obj
+         Debug\ParticleEngine2D.obj
+         Debug\picoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\SpriteFont.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+         Engine.vcxproj -> C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Debug\Engine.lib
+     1>Done Building Project "C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.37

@@ -1,0 +1,35 @@
+﻿Build started 7/21/2015 10:01:07 PM.
+     1>Project "C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SpriteBatch.cpp
+         SpriteBatch.cpp
+     1>SpriteBatch.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>SpriteBatch.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+     1>SpriteBatch.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Release\Engine.lib" SDL2.lib SDL2main.lib opengl32.lib glew32.lib /NOLOGO /LTCG Release\AudioEngine.obj
+         Release\Camera2D.obj
+         Release\Engine.obj
+         Release\EngineErrors.obj
+         Release\GLSLProgram.obj
+         Release\ImageLoader.obj
+         Release\InputManager.obj
+         Release\IOManager.obj
+         Release\ParticleBatch2D.obj
+         Release\ParticleEngine2D.obj
+         Release\picoPNG.obj
+         Release\ResourceManager.obj
+         Release\Sprite.obj
+         Release\SpriteBatch.obj
+         Release\SpriteFont.obj
+         Release\TextureCache.obj
+         Release\Timing.obj
+         Release\Window.obj
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+         Engine.vcxproj -> C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Release\Engine.lib
+     1>Done Building Project "C:\Users\Jinyoung\Documents\Visual Studio 2013\Projects\Game\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28
